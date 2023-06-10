@@ -1,4 +1,29 @@
+:root {
+    --textBlue: #94d6fa;
+    --lightBlue: #31A3E0;
+    --backgroundBlue: #154661;
+    --mediumBlue: #267EAD;
+    --backgroundGrey: #565F63;
+  }
 
+/* source: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ */
+.hero {
+  /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
+  background: url("../marinacityHero.png") center; 
+  background-size: cover;
+  background-color: #565F63;
+  padding: 4rem 2rem;
+
+  /* grid styles */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* html styles */
+html{
+    scroll-behavior: smooth;
+}
 /*
 IBM Plex Mono Regular
 font-family: "ibm-plex-mono", sans-serif;
@@ -32,38 +57,6 @@ font-style: italic;
 •/
 
 /* color palette created at https://color.adobe.com/create/color-wheel */
-
-
-:root {
-  --textBlue: #94d6fa;
-  --lightBlue: #31A3E0;
-  --backgroundBlue: #154661;
-  --mediumBlue: #267EAD;
-  --backgroundGrey: #565F63;
-}
-
-/* source: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ */
-.hero {
-  /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
-  background: url("../marinacityHero.png") center; 
-  background-size: cover;
-  /* background-color: #565F63; */
-  padding: 4rem 2rem;
-
-  /* grid styles */
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-/*
-TODO: unfinished, needs work.
-.link {
-  a:link: var(--textBlue)
-  a:visited: green; 
-}
-*/
-
 h1 {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
@@ -74,7 +67,7 @@ h1 {
 h2 {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
-  font-weight:400;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -85,13 +78,10 @@ p {
   font-style: normal;
 }
 
-/*
-wanted to use a pseudo-element
-applies styles to the first line of a block-level element
-does not work with in-line block level elements
-reminder: allowable properties list https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
-*/
-p::first-line {
-  font-size: 1.2rem;
-  text-decoration: underline;
+a {
+    color: var(--lightBlue);
+    text-decoration: none;
+    font-family: "ibm-plax-mono";
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;  
 }
