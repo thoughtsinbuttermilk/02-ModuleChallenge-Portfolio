@@ -47,7 +47,7 @@ font-style: italic;
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
   background: url("../marinacityHero.png") center; 
   background-size: cover;
-  /* background-color: #565F63; */
+  background-color: #565F63;
   padding: 4rem 2rem;
 
   /* grid styles */
