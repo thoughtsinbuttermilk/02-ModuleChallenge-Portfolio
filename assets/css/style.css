@@ -1,0 +1,89 @@
+
+/*
+IBM Plex Mono Regular
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+IBM Plex Mono Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+IBM Plex Mono SemiBold
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+IBM Plex Mono SemiBold Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+IBM Plex Mono Bold
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+IBM Plex Mono Bold Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 800;
+font-style: italic;
+•/
+
+/* color palette created at https://color.adobe.com/create/color-wheel */
+
+
+:root {
+  --textBlue: #94d6fa;
+  --lightlue: #31A3E0;
+  --backgroundBlue: #154661;
+  --mediumBlue: #267EAD;
+  --backgroundGrey: #565F63;
+}
+
+/*
+TODO: unfinished, needs work.
+.link {
+  a:link: var(--textBlue)
+  a:visited: green; 
+}
+*/
+
+h1 {
+  color: var(--textBlue);
+  font-family: "ibm-plex-mono", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+p {
+  color: var(--textBlue);
+  font-family: "ibm-plex-mono", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+wanted to use a pseudo-element
+applies styles to the first line of a block-level element
+does not work with in-line block level elements
+reminder: allowable properties list https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
+*/
+
+p::first-line {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.hero {
+  /* photo by thoughhtsinbuttermilk https://thoughtsinbuttermilk.com/2021/04/12/reinforced-concrete/ */
+  background-image: url('/assets/images/marinacityHero.png') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  font-family: "ibm-plex-mono", sans-serif;
+}
+  /* grid styles */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
