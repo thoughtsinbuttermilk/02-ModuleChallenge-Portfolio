@@ -35,24 +35,27 @@ font-style: italic;
 
 
 :root {
-  --textBlue: #94d6fa;
-  --lightBlue: #31A3E0;
-  --backgroundBlue: #154661;
-  --mediumBlue: #267EAD;
+  --backgroundBlue: #94d6fa;
   --backgroundGrey: #565F63;
+  --darkBlue: #154661;
+  --lightBlue: #31A3E0;
+  --textBlue: #267EAD;
 }
 
-/* source: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ */
-.hero {
+body {
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
   background: url("../marinacityHero.png") center; 
+  background-color: black;
+  background-position: center, center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #565F63;
   padding: 4rem 2rem;
+}
 
+.projects {
   /* grid styles */
-  display: grid;
   align-items: center;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
@@ -67,22 +70,24 @@ TODO: unfinished, needs work.
 h1 {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
-  font-weight: 800;
   font-style: normal;
+  /* setting the font size explictly to keep the h1 style consistent when grid is resized*/
+  font-size: 2em;
+  font-weight: 800;
 }
 
 h2 {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
-  font-weight:400;
   font-style: normal;
+  font-weight:400;
 }
 
 p {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 /*
@@ -90,8 +95,9 @@ wanted to use a pseudo-element
 applies styles to the first line of a block-level element
 does not work with in-line block level elements
 reminder: allowable properties list https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
-*/
+
 p::first-line {
   font-size: 1.2rem;
   text-decoration: underline;
 }
+*/
