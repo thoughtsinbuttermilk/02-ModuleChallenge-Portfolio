@@ -58,34 +58,11 @@ body {
   padding: 4rem 2rem;
 }
 
-.main {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.header {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-/*
-TODO: figure out how to structure the html so these selectors can be combinedd and render correctly
-*/
+.footer,
+.header,
+.main,
+.photography,
 .project {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.photography {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.footer {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -99,9 +76,10 @@ TODO: figure out how to structure the html so these selectors can be combinedd a
   position: relative;
 }
 
+a,
 h1,
 h2,
-h3 {
+p {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
   font-style: normal;
@@ -119,14 +97,11 @@ h2 {
 
 p,
 a {
-  color: var(--textBlue);
-  font-family: "ibm-plex-mono", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 a:hover {
-  color: var(--lightBlue);
   opacity: 0.5;
 }
 
