@@ -1,37 +1,4 @@
-/*
-IBM Plex Mono Regular
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 400;
-font-style: normal;
-
-IBM Plex Mono Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 400;
-font-style: italic;
-
-IBM Plex Mono SemiBold
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 700;
-font-style: normal;
-
-IBM Plex Mono SemiBold Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 700;
-font-style: italic;
-
-IBM Plex Mono Bold
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 800;
-font-style: normal;
-
-IBM Plex Mono Bold Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 800;
-font-style: italic;
-•/
-
 /* color palette created at https://color.adobe.com/create/color-wheel */
-
 :root {
   --backgroundBlue: #94d6fa;
   --backgroundGrey: #565f63;
@@ -61,6 +28,7 @@ body {
 .footer,
 .header,
 .main,
+.navigation,
 .photography,
 .project {
   align-items: center;
@@ -105,14 +73,38 @@ a:hover {
   opacity: 0.5;
 }
 
-/*
-wanted to use a pseudo-element
-applies styles to the first line of a block-level element
-does not work with in-line block level elements
-reminder: allowable properties list https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
-
-p::first-line {
-  font-size: 1.2rem;
-  text-decoration: underline;
+img {
+  border: 1px solid var(--lightBlue);
 }
-*/
+
+/*
+IBM Plex Mono Regular
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+IBM Plex Mono Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+IBM Plex Mono SemiBold
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+IBM Plex Mono SemiBold Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+IBM Plex Mono Bold
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+IBM Plex Mono Bold Italic
+font-family: "ibm-plex-mono", sans-serif;
+font-weight: 800;
+font-style: italic;
+•/
