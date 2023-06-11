@@ -45,11 +45,18 @@ font-style: italic;
 body {
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
   background: url("../marinacityHero.png") center; 
+  background-attachment: scroll;
   background-color: black;
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 2rem;
+}
+
+.header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .projects {
