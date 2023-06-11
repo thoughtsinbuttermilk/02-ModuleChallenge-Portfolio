@@ -47,7 +47,7 @@ html {
 
 body {
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
-  background: url("../marinacityHero.pngx") center;
+  background: url("../marinacityHero.png") center;
   /* added background attachment property so that as the page grows, and scrolling is required, the background image scrolls with the content */
   background-attachment: scroll;
   /* setting the background color to black to ensure there is sufficient contrast if the background image doesn't load */
