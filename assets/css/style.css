@@ -76,35 +76,3 @@ a:hover {
 img {
   border: 1px solid var(--lightBlue);
 }
-
-/*
-IBM Plex Mono Regular
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 400;
-font-style: normal;
-
-IBM Plex Mono Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 400;
-font-style: italic;
-
-IBM Plex Mono SemiBold
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 700;
-font-style: normal;
-
-IBM Plex Mono SemiBold Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 700;
-font-style: italic;
-
-IBM Plex Mono Bold
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 800;
-font-style: normal;
-
-IBM Plex Mono Bold Italic
-font-family: "ibm-plex-mono", sans-serif;
-font-weight: 800;
-font-style: italic;
-•/
