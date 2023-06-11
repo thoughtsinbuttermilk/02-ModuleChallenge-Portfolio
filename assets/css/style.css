@@ -73,14 +73,16 @@ TODO: unfinished, needs work.
 }
 */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
   font-style: normal;
 }
 
-  h1 {
-    /* setting the font size explictly to keep the h1 style consistent when grid is resized*/
+h1 {
+  /* setting the font size explictly to keep the h1 style consistent when grid is resized*/
   font-size: 2em;
   font-weight: 400;
 }
@@ -89,11 +91,17 @@ h2 {
   font-weight: 800;
 }
 
-p {
+p,
+a {
   color: var(--textBlue);
   font-family: "ibm-plex-mono", sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+
+a:hover {
+  color: var(--lightBlue);
+  opacity: .5;
 }
 
 /*
