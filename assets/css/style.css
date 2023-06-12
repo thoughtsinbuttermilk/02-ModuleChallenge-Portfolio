@@ -89,7 +89,7 @@ img {
   border: 1px solid var(--lightBlue);
 }
 
-/* needed help here */
+/* needed help here used css-tricks to help me out */
 .gallery {
   --s: 150px; /* controls the size */
   --g: 10px; /*controls the gap */
