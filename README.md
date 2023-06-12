@@ -73,7 +73,7 @@ A loose outline of the process I tried to adhere to:
 
 _Learnings, areas of improvements_
 1. One aspect of development I need to work on is focus. It's easy to become distracted by ideas for improvements (shiny, cool things to try) while researching and learning fondational concepts that will make future me a good developer.
-2. Complete the requirements, first.
+2. Complete the requirements, first. Fewer "squirrel" moments. But, still, [this light saber implementation](https://codepen.io/Asgator/pen/kYZrjQ) is cool!
 3. When writing comments, try to consider the perspective of the audience (in this case, the graders).
 4. Keep commits small and discreet.
 5. Keep development branch updated with `main`
