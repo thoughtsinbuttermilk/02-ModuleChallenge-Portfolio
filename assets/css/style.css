@@ -14,7 +14,7 @@ html {
 
 body {
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
-  background: url("../marinacityHero.png") center;
+  background:  url("../marinacityHero.png") center;
   /* added background attachment property so that as the page grows, and scrolling is required, the background image scrolls with the content */
   background-attachment: scroll;
   /* setting the background color to black to ensure there is sufficient contrast if the background image doesn't load */
@@ -50,23 +50,26 @@ a,
 h1,
 h2,
 p {
-  color: var(--textBlue);
+  /* color: var(--textBlue); */
   font-family: "ibm-plex-mono", sans-serif;
   font-style: normal;
 }
 
 h1 {
   /* setting the font size explictly to keep the h1 style consistent when grid is resized*/
+  color: var(--lightBlue);
   font-size: 2em;
   font-weight: 400;
 }
 
 h2 {
+  color: var(--textBlue);
   font-weight: 800;
 }
 
 p,
 a {
+  color: var(--darkBlue);
   font-style: normal;
   font-weight: 400;
 }
