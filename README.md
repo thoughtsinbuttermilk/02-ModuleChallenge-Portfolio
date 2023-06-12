@@ -71,6 +71,8 @@ A loose outline of the process I tried to adhere to:
 6. Create a list of artifacts and decisions needed: fonts, colors, html structure, css selectors, etc., add to Design and Development stories
 7. Begin work
 
+I also created a "safe place' in repository for experiments: bugs and confusion, mostly. 
+
 _Learnings, areas of improvements_
 1. One aspect of development I need to work on is focus. It's easy to become distracted by ideas for improvements (shiny, cool things to try) while researching and learning fondational concepts that will make future me a good developer.
 2. Complete the requirements, first. Fewer "squirrel" moments. But, still, [this light saber implementation](https://codepen.io/Asgator/pen/kYZrjQ) is cool!
@@ -79,7 +81,9 @@ _Learnings, areas of improvements_
 5. Keep development branch updated with `main`
 6. Remember: often there's more than one thing contributing to the problem you are working on.
 7. Test early, test often. Test the thing you are working on *and* the broader functionality of the application.
-8. Oh! The irony of creating a portfolio that is not compliant with accessibility tools when my first project was a refactor for accessibility!
+8. Problems: create a case of the problem in the smallest possible amount of code in a separate file
+9. Before fixing a problem, demonstrate that you understand how the code works.
+10. Oh! The irony of creating a portfolio that is not compliant with accessibility tools when my first project was a refactor for accessibility!
 
 # Deployment, usage
 
