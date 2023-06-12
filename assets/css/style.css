@@ -14,7 +14,7 @@ html {
 
 body {
   /* photo by thoughtsinbuttermillk http://www.thoughtsinbuttermilk.com */
-  background:  url("../marinacityHero.png") center;
+  background: url("../marinacityHero.png") center;
   /* added background attachment property so that as the page grows, and scrolling is required, the background image scrolls with the page content */
   background-attachment: scroll;
   /* setting the background color to black to ensure there is sufficient contrast if the background image doesn't load */
@@ -86,14 +86,16 @@ img {
   border: 1px solid var(--lightBlue);
 }
 
-.gallery {  
+.gallery {
   --s: 150px; /* controls the size */
-  --g: 10px;  /*controls the gap */
+  --g: 10px; /*controls the gap */
   --f: 1.5; /* controls the scale factor */
 
   display: grid;
   gap: var(--g);
-  width: calc(3*var(--s) + 2*var(--g)); /* 3 times the size plus 2 times the gap */
+  width: calc(
+    3 * var(--s) + 2 * var(--g)
+  ); /* 3 times the size plus 2 times the gap */
   aspect-ratio: 1;
   grid-template-columns: repeat(3, auto);
 }
@@ -106,7 +108,7 @@ img {
   object-fit: cover;
 }
 
-.gallery img:hover{
-  width:  calc(var(--s) * var(--f));
+.gallery img:hover {
+  width: calc(var(--s) * var(--f));
   height: calc(var(--s) * var(--f));
 }
