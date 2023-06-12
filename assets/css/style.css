@@ -1,4 +1,5 @@
 /* color palette created at https://color.adobe.com/create/color-wheel */
+/* not all of these colors are used now  */
 :root {
   --backgroundBlue: #94d6fa;
   --backgroundGrey: #565f63;
@@ -40,13 +41,15 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-.figure {
+/* this isn't needed right now, may use in the future */
+/* .figure { 
   background-color: black;
   max-height: 120px;
   max-width: 120px;
   overflow: visible;
   position: relative;
 }
+*/
 
 a,
 h1,
@@ -86,6 +89,7 @@ img {
   border: 1px solid var(--lightBlue);
 }
 
+/* needed help here */
 .gallery {
   --s: 150px; /* controls the size */
   --g: 10px; /*controls the gap */
