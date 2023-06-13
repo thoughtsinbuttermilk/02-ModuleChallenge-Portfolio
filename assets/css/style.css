@@ -94,6 +94,7 @@ img {
   --s: 150px; /* controls the size */
   /* changed the gap from 10px to 0px */
   --g: 0px; /*controls the gap */
+  /* scale factor: scales width, not height */
   --f: 1.5; /* controls the scale factor */
 
   display: grid;
@@ -101,7 +102,7 @@ img {
   width: calc(
     3 * var(--s) + 2 * var(--g)
   ); /* 3 times the size plus 2 times the gap */
-  aspect-ratio: 1;
+  aspect-ratio: .5;
   /* chaned the number of columns from 3 to 2 */
   grid-template-columns: repeat(2, auto);
 }
